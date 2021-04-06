@@ -230,3 +230,24 @@ assets:
     source:
     - name: ard/tt32/830_.spawn
     type: AreaDataSpawn
+# GoA chest relocation, shop, save point
+- method: binarc
+  name: ard/hb26.ard
+  source:
+  # move two side chests
+  - method: spawnpoint
+    name: m_70
+    source:
+    - name: ard/hb26/m_70.spawn
+    type: AreaDataSpawn
+  # donald and goofy become save and moogle
+  - method: spawnpoint
+    name: e_50
+    source:
+    - name: ard/hb26/e_50.spawn
+    type: AreaDataSpawn
+  - method: spawnpoint
+    name: m_00
+    source:
+    - name: ard/hb26/m_00.spawn
+    type: AreaDataSpawn
