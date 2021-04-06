@@ -221,3 +221,12 @@ assets:
   - name: msg/uk/fontimage.bar
   source:
   - name: msg/fontimage.bar
+# SoS dusks change into Disney people
+- method: binarc
+  name: ard/tt32.ard
+  source:
+  - method: spawnpoint
+    name: 830_
+    source:
+    - name: ard/tt32/830_.spawn
+    type: AreaDataSpawn
